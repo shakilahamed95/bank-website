@@ -11,23 +11,23 @@
 
 <body>
     <header>
-        <h1 class=" text-5xl text-center mt-8 mb-8 ">Welcome to my <strong class="font-semibold text-teal-900">bap er
-                bank</strong> </h1>
+        <h1 class=" text-5xl text-center mt-8 mb-8 ">Lets calculate <strong class="font-semibold text-teal-900">Our
+                money</strong> </h1>
     </header>
     <main class="w-3/4 mx-auto">
         <section class="mt-16">
             <div class="grid grid-cols-3 gap-4">
                 <div class="bg-pink-500 p-8 rounded text-white">
                     <h3 class="text-2xl"> Diposit</h3>
-                    <h4 class="text-4xl"> $ -00</h4>
+                    <h4 class="text-4xl"> $-<span id="total-amount">00</span></h4>
                 </div>
                 <div class="bg-fuchsia-400 p-8 rounded text-white">
                     <h3 class="text-2xl">Withdraw</h3>
-                    <h4 class="text-4xl"> $ -00</h4>
+                    <h4 class="text-4xl"> $-00</h4>
                 </div>
                 <div class="bg-violet-400 p-8 rounded text-white">
                     <h3 class="text-2xl">Balance</h3>
-                    <h4 class="text-4xl"> $ -1200</h4>
+                    <h4 class="text-4xl">$-<span id="my-balance"> 1200</span></h4>
                 </div>
             </div>
         </section>
@@ -59,6 +59,7 @@
             </div>
         </section>
     </main>
+    <script src="js/banking.js"></script>
 </body>
 
 </html>

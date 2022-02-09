@@ -9,4 +9,4 @@ document.getElementById('login-button').addEventListener('click', function () {
     else {
         alert("please enter correct email and password");
     }
-})
+});
