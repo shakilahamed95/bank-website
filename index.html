@@ -10,22 +10,26 @@
 </head>
 
 <body>
-    <h1 class=" text-5xl text-center mt-16 mb-8 ">Welcome to my <strong class="font-semibold text-teal-900">bap er
-            bank</strong> </h1>
+    <header>
+        <h1 class=" text-5xl text-center mt-16 mb-8 ">Welcome to my <strong class="font-semibold text-teal-900">bap er
+                bank</strong> </h1>
+    </header>
     <main>
         <section class="bg-sky-300 mt-16 w-3/4 mt-2 mx-auto">
             <h3 class="text-2xl mb-8 ml-8 pt-6 ">Please login</h3>
             <div>
-                <input class="border mb-2 p-2 px-2 ml-8 w-1/2 rounded border-zinc-800 border-solid" type="text"
-                    placeholder="Please enter your email">
+                <input id="user-email" class="border mb-2 p-2 px-2 ml-8 w-1/2 rounded border-zinc-800 border-solid"
+                    type="text" placeholder="Please enter your email">
                 <br>
-                <input class="border mb-3 w-1/2 ml-8 p-2 px-2 rounded border-zinc-800 border-solid" type="password"
-                    placeholder="Please enter your password">
+                <input id="user-password" class="border mb-3 w-1/2 ml-8 p-2 px-2 rounded border-zinc-800 border-solid"
+                    type="password" placeholder="Please enter your password">
                 <br>
-                <button class="ml-16 bg-fuchsia-500 mb-4 px-4 py-2 rounded text-white font-semibold">submit</button>
+                <button id="login-button"
+                    class="ml-16 bg-fuchsia-500 mb-4 px-4 py-2 rounded text-white font-semibold">submit</button>
             </div>
         </section>
     </main>
+    <script src="js/bank.js"></script>
 </body>
 
 </html>
